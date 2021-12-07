@@ -52,7 +52,7 @@ This will convert the wasm into a file called `simple.wasm`, which contains the
 
 ## Viewing the assembly output
 
-Because the output file is assembly-based, it can’t be viewed in a normal text editor. However, you can view it using the wat2wasm tool’s `-v` option. Try this:
+Because the output file is in binary format, it can’t be viewed in a normal text editor. However, you can view it using the wat2wasm tool’s `-v` option. Try this:
 
 ```bash
 wat2wasm simple.wat -v
